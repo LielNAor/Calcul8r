@@ -30,4 +30,16 @@ public class Operations {
     public static int multiply(int x, int y) {
         return x * y;
     }
+    
+    public static double divide(int x, int y) {
+    	if (y!=0){
+    		return x/y;
+    	} 
+    	else {
+    		System.out.println("Division by 0 is BAAAAD !!! ");
+    		return 0;
+    	}
+        
+    }
+    
 }
